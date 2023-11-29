@@ -6,9 +6,9 @@
 
 # 下单前
 
-- [🔁 流程须知 (Process Instructions)](./flow.md)
+- [🔁 流程須知 (Process Instructions)](./flow.md)
 - [📏 测量指南](./measurement.md)
 
 # 产品系列
 
-- [👕 MAICRA KIGURUMI 专用紧身衣](./MAICRA.md)
+- [👕 MAICRA 打底衣 “皮”](./MAICRA.md)

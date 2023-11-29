@@ -1,3 +1,10 @@
-# MAICRA - KIGURUMI COSPLAY 专用肤色打底紧身衣
+# MAICRA PINK FLESH KIGURUMI ZENTAI
 
-> ALPHA 内部测试中，章节建设中，敬请期待。
+MAICRA “麥卡” 专属于 KIGURUMI COSPLAY 玩家的打底衣。
+
+> 🙏 请让您的皮远离魔术贴！
+
+<div style="text-align:center;">
+  <img src="/assets/products/MAICRA_zh_CN.png" width="350"/>
+  <img src="/assets/products/MAICRA_en_US.png" width="350"/>
+</div>
