@@ -10,14 +10,14 @@ Please measure and record the following data, fill in the [Measurement Results T
 
 | No.  | Measurement Item | Schematic Diagram | Description |
 | ---- | ---------------- | --------------------------------- | ---- |
-| 1    | Head Height      | <img src="/img/measurement/head_height.png" width="300" />        | Please lean against the wall, record the width of ① and ② respectively, and then measure the distance. |
-| 2    | Head Width       | <img src="/img/measurement/head_width.png" width="300" />         | Please lean against the wall, record the width of ① and ② respectively, and then measure the distance. |
-| 3    | Head Circumference | <img src="/img/measurement/head_circumference.png" width="300" /> | Measure the circumference around positions ①, ②, and ③. Position ① is the hairline, position ② is about 1cm above the ears, and position ③ is where the back of the head protrudes. |
-| 4    | Eye Height       | <img src="/img/measurement/eye_height.png" width="300" />         | Please measure the distance between ① and ②. ① is parallel to the pupil, and ② is the chin. |
-| 5    | Eye Distance     | <img src="/img/measurement/eye_distance.png" width="300" />          | ① and ② are the centers of the pupils in both eyes. Please measure the distance between them. |
+| 1    | Head Height      | <img src="./assets/new_measurement/head_height.png" width="300" />        | Please lean against the wall, record the width of ① and ② respectively, and then measure the distance. |
+| 2    | Head Width       | <img src="./assets/new_measurement/head_width.png" width="300" />         | Please lean against the wall, record the width of ① and ② respectively, and then measure the distance. |
+| 3    | Head Circumference | <img src="./assets/new_measurement/head_circumference.png" width="300" /> | Measure the circumference around positions ①, ②, and ③. Position ① is the hairline, position ② is about 1cm above the ears, and position ③ is where the back of the head protrudes. |
+| 4    | Eye Height       | <img src="./assets/new_measurement/eye_height.png" width="300" />         | Please measure the distance between ① and ②. ① is parallel to the pupil, and ② is the chin. |
+| 5    | Eye Distance     | <img src="./assets/new_measurement/eye_distance.png" width="300" />          | ① and ② are the centers of the pupils in both eyes. Please measure the distance between them. |
 | 6    | Height           | / | Please measure your height after taking off your shoes. When measuring, please press down your hair. |
 | 7    | Weight           | / | Please measure your weight after taking off your shoes. |
-| 8    | Shoulder Width   | <img src="/img/measurement/shoulder_width.png" width="300" />     | ① and ③ are the two shoulder points, and ② is the location of the cervical spine protrusion. Please measure the distance. |
+| 8    | Shoulder Width   | <img src="./assets/new_measurement/shoulder_width.png" width="300" />     | ① and ③ are the two shoulder points, and ② is the location of the cervical spine protrusion. Please measure the distance. |
 
 ## Measurement Result Template
 
