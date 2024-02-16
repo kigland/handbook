@@ -1,6 +1,7 @@
 # Head Data Measurement
 
-When ordering a Kigurumi head, you need to provide your real head data.When ordering a Kigurumi headshell, you need to provide your real head data. 
+When ordering a Kigurumi Mask, you need to provide your self head data.
+
 Before measuring, it is recommended that you prepare a soft ruler and have someone else assist you. If you measure by yourself, it is suggested to do so in front of a mirror.
 
 ## Measurement Items
