@@ -1,4 +1,4 @@
-# 歡迎（welcome）
+# 欢迎（welcome）
 
 > 🇨🇳 玩头壳、交朋友，感谢您选择我们！
 >
@@ -20,7 +20,7 @@
 
 您可以使用（上面的）搜索功能来寻找特定的主题或问题。
 
-如果您是 **第一次了解 Kigurumi** 可以阅读 👉[快速入门](https://how.kig.land/get-start)
+> 如果您是 **第一次了解 Kigurumi** 可以阅读 👉[快速入门](https://how.kig.land/get-start)
 
 祝您玩的愉快！
 
@@ -30,7 +30,7 @@ This knowledge base will helps you understand our KigLand Kigurumi product serie
 
 You can use the (above) search function to find specific topics or questions.
 
-If you are learning about Kigurumi for the first time, you can read the 👉[Quick Start Guide (zh_CN)](https://how.kig.land/get-start)
+> Learning about Kigurumi for the 1st time, please read the 👉[Quick Start Guide (zh_CN)](https://how.kig.land/get-start)
 
 Have fun!
 
