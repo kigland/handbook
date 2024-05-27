@@ -9,6 +9,7 @@
 - [🔁 流程須知 (Process Instructions)](./flow.md)
 - [📏 测量指南](./measurement.md)
 - [📏 Measurement Guide](./measurement_en.md)
+<!-- - [📏 MAICRA Measurement Guide](./measurement_maicra.md) -->
 
 # 产品系列
 
