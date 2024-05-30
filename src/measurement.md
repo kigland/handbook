@@ -23,7 +23,7 @@
 | 5    | 瞳孔宽度（眼宽） | <img src="./assets/measurement/eye_width.png" width="300" />          |
 | 6    | 身高             | 主要用于确认头身比例                                                  |
 | 7    | 体重             | 主要用于确认头身比例                                                  |
-| 8    | 肩宽             | 辅助确认头身比例                                                      |
+| 8    | 肩宽             | <img src="./assets/new_measurement/shoulder_width.png" width="300" />                                                       |
 
 ## 紧身衣测量项目
 
