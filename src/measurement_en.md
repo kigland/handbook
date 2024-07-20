@@ -25,7 +25,7 @@ Please measure and record the following data, fill in the [Measurement Results T
 | 5   | Eye Distance       | <img src="./assets/new_measurement/eye_distance.png" width="300" />       | ① and ② are the centers of the pupils in both eyes. Please measure the distance between them.                                                                                       |
 | 6   | Height             | /                                                                         | Please measure your height after taking off your shoes. When measuring, please press down your hair.                                                                                |
 | 7   | Weight             | /                                                                         | Please measure your weight after taking off your shoes.                                                                                                                             |
-| 8   | Shoulder Width     | <img src="./assets/new_measurement/shoulder_width.png" width="300" />     | ① and ③ are the two shoulder points, and ② is the location of the cervical spine protrusion. Please measure the distance.                                                           |
+| 8   | Max Shoulder Width     | <img src="./assets/new_measurement/max_shoulder_width.png" width="300" />     |                            |
 
 ### Measurement Result Template
 
