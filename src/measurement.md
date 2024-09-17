@@ -14,16 +14,16 @@
 
 ## 头壳测量项目
 
-| 序号 | 测量项目         | 说明                                                                  |
-| ---- | ---------------- | --------------------------------------------------------------------- |
-| 1    | 头高             | <img src="./assets/measurement/head_height.png" width="300" />        |
-| 2    | 头宽             | <img src="./assets/measurement/head_width.png" width="300" />         |
-| 3    | 头围             | <img src="./assets/measurement/head_circumference.png" width="300" /> |
-| 4    | 瞳孔高度（眼高） | <img src="./assets/measurement/eye_height.png" width="300" />         |
-| 5    | 瞳孔宽度（眼宽） | <img src="./assets/measurement/eye_width.png" width="300" />          |
-| 6    | 身高             | 主要用于确认头身比例                                                  |
-| 7    | 体重             | 主要用于确认头身比例                                                  |
-| 8    | 最大肩宽             | <img src="./assets/new_measurement/max_shoulder_width.png" width="300" />                                                       |
+| 序号 | 测量项目         | 参考图 | 说明 |                                                                  
+| ---- | ---------------- | -------- | ---------------------------------- |
+| 1    | 头高(cm)          | <img src="./assets/new_measurement/head_height.jpg" width="300" />  | 测量发旋(①)、下巴(②)间的直线距离(③) |
+| 2    | 头宽(cm)         | <img src="./assets/new_measurement/head_width.jpg" width="300" />    | 测量头部正面最宽处(① ②)的直线距离(③)，不含耳朵 |
+| 3    | 头围(cm)         | <img src="./assets/new_measurement/head_circumference_1.jpg" width="300" /> <img src="./assets/new_measurement/head_circumference_2.jpg" width="300" /> <img src="./assets/new_measurement/head_circumference_3.jpg" width="300" /> | 穿过眉毛上边沿(① ②)、耳朵上方1cm处(③)和头部后方塌陷点(④)，围绕头部一周，取得周长数据 |
+| 4    | 瞳高(cm) | <img src="./assets/new_measurement/eye_height.jpg" width="300" />  | 测量瞳孔(①)、下巴(②)间的直线距离(③) |
+| 5    | 瞳距(cm) | <img src="./assets/new_measurement/eye_distance.jpg" width="300" />  | 测量右瞳孔(①)、左瞳孔(②)间的直线距离(③) |
+| 6    | 身高(cm)  | <img src="./assets/new_measurement/body_height.jpg" width="300" />  | 测量头顶(①)、脚底(②)间的直线距离(③) |
+| 7    | 体重(kg)     | | |
+| 8    | 最大肩宽(cm)    | <img src="./assets/new_measurement/max_shoulder_width.jpg" width="300" />>  | 测量肩部关节(① ②)之间的直线距离(③)，推荐在墙上画线测量 |
 
 ## 紧身衣测量项目
 
