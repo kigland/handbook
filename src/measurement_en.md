@@ -22,7 +22,7 @@ Please measure and record the following data, fill in the [Measurement Results T
 | 2   | Head Width (cm)  | <img src="./assets/new_measurement/head_width.jpg" width="300" /> | Measure the straight distance (③) at the widest part of the front of the head (① ②), excluding the ears |
 | 3   | Head Circumference (cm) | <img src="./assets/new_measurement/head_circumference_1.jpg" width="300" /> <img src="./assets/new_measurement/head_circumference_2.jpg" width="300" /> <img src="./assets/new_measurement/head_circumference_3.jpg" width="300" /> | Measure around the head passing above the eyebrows (① ②), 1cm above the ears (③), and the indentation at the back of the head (④) to obtain the circumference |
 | 4   | Eye Height (cm)  | <img src="./assets/new_measurement/eye_height.jpg" width="300" /> | Measure the straight distance (③) between the pupil (①) and the chin (②) |
-| 5   | Interpupillary Distance (cm) | <img src="./assets/new_measurement/eye_distance.jpg" width="300" /> | Measure the straight distance (③) between the right pupil (①) and the left pupil (②) |
+| 5   | Eye Distance (cm) | <img src="./assets/new_measurement/eye_distance.jpg" width="300" /> | Measure the straight distance (③) between the right pupil (①) and the left pupil (②) |
 | 6   | Height (cm)      | <img src="./assets/new_measurement/body_height.jpg" width="300" /> | Measure the straight distance (③) between the top of the head (①) and the bottom of the feet (②) |
 | 7   | Weight (kg)      | | |
 | 8   | Maximum Shoulder Width (cm) | <img src="./assets/new_measurement/max_shoulder_width.jpg" width="300" /> | Measure the straight distance (③) between the shoulder joints (① ②), recommended to draw lines on the wall for measurement |                        |
