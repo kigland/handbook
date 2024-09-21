@@ -23,7 +23,7 @@
 | 5    | 瞳距(cm) | <img src="./assets/new_measurement/eye_distance.jpg" width="300" />  | 测量右瞳孔(①)、左瞳孔(②)间的直线距离(③) |
 | 6    | 身高(cm)  | <img src="./assets/new_measurement/body_height.jpg" width="300" />  | 测量头顶(①)、脚底(②)间的直线距离(③) |
 | 7    | 体重(kg)     | | |
-| 8    | 最大肩宽(cm)    | <img src="./assets/new_measurement/max_shoulder_width.jpg" width="300" />>  | 测量肩部关节(① ②)之间的直线距离(③)，推荐在墙上画线测量 |
+| 8    | 肩宽(cm)    | <img src="./assets/new_measurement/max_shoulder_width.jpg" width="300" />  | 测量肩部关节(① ②)之间的直线距离(③)，推荐在墙上画线测量 |
 
 ## 紧身衣测量项目
 
@@ -32,9 +32,9 @@
 | 1    | 性别     | 生理性别，用于确认人体曲线（若有 SRS 性别重置术史，请告知客服）。            |
 | 2    | 身高     | 脱鞋，直立，头部与墙壁保持垂直，双脚并拢，双肩放松，双臂自然下垂，测量身高。 |
 | 3    | 体重     | 以 kg 为单位。                                                               |
-| 4    | 脸长     | <img src="./assets/measurement/face_length.png" width="450" />               |
-| 5    | 头围     | <img src="./assets/measurement/head_circumference.png" width="300" />        |
-| 6    | 颈围     | <img src="./assets/measurement/neck_circ.png" width="450" />                 |
+| 4    | 脸长     | <img src="./assets/measurement/face_length.jpg" width="450" />               |
+| 5    | 头围     | <img src="./assets/measurement/head_circumference_1.jpg" width="300" /><img src="./assets/measurement/head_circumference_2.jpg" width="300" /> <img src="./assets/measurement/head_circumference_3.jpg" width="300" />       |
+| 6    | 颈围     | <img src="./assets/measurement/neck_circ.jpg" width="450" />                 |
 | 7    | 肩宽     | <img src="./assets/measurement/shoulder_width.png" width="450" />            |
 | 8    | 上身长   | <img src="./assets/measurement/upper_body_length.png" width="450" />         |
 | 9    | 内臂长   | <img src="./assets/measurement/inner_arm_length.png" width="450" />          |
