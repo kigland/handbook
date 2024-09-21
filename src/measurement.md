@@ -1,8 +1,5 @@
 # 测量指南
 
-为了更好的佩戴效果与舒适性，我们可能需要您测量一些数据。
-请您根据所购买的产品，测量对应的项目，并向我们的客服提供测量数据。
-
 ---
 
 - [测量：Kigurumi 头壳](./measurement.md#头壳测量项目)
@@ -10,7 +7,12 @@
 
 ---
 
-> ⚠ 请您务必提供准确、未经放大或缩小的数据
+<div style="border-radius: 8px; border: 1px solid #00f; padding: 10px; background-color: #f0f8ff;">
+ <div style="margin-left:4px;">
+   <strong>生成式 AI 内容提示</strong>
+   <p style="margin: 2px 0px 2px">本文部分图像，基于 KIGLAND 原创图像，由 AI 二次生成。</p>
+ </div>
+</div>
 
 ## 头壳测量项目
 
