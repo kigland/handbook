@@ -84,7 +84,7 @@ jobs:
             --update \
             --delete-after \
             --exclude ".git/**" \
-            --metadata-set "Content-Disposition=inline" \
+            --header-upload "Content-Disposition: inline" \
             --s3-no-check-bucket \
             ./ s3:${{ secrets.S3_BUCKET_NAME }}
             
