@@ -38,88 +38,77 @@ jobs:
           git commit -m "Deploy $GITHUB_SHA to gh-pages"
           git push --force --set-upstream origin gh-pages
           
-      - name: Install and Configure s3cmd
+      - name: Install and Configure rclone
         run: |
-          # Install s3cmd
-          pip install s3cmd
+          # Install rclone
+          curl https://rclone.org/install.sh | sudo bash
           
-          # Extract domain from endpoint URL (remove https:// if present)
-          ENDPOINT=$(echo "${{ secrets.S3_ENDPOINT_URL }}" | sed 's/https:\/\///')
-          
-          # Create s3cmd config file with MIME type settings
-          cat > ~/.s3cfg << EOF
-          [default]
-          access_key = ${{ secrets.S3_ACCESS_KEY }}
-          secret_key = ${{ secrets.S3_SECRET_KEY }}
-          host_base = ${ENDPOINT}
-          host_bucket = ${ENDPOINT}
-          use_https = True
-          check_ssl_certificate = False
-          check_ssl_hostname = False
-          # Enable verbose output and progress meter
-          verbose = True
-          progress_meter = True
-          # Enable proper MIME types detection
-          guess_mime_type = True
+          # Configure rclone for S3 compatible storage
+          mkdir -p ~/.config/rclone
+          cat > ~/.config/rclone/rclone.conf << EOF
+          [s3]
+          type = s3
+          provider = Other
+          env_auth = false
+          access_key_id = ${{ secrets.S3_ACCESS_KEY }}
+          secret_access_key = ${{ secrets.S3_SECRET_KEY }}
+          endpoint = ${{ secrets.S3_ENDPOINT_URL }}
+          acl = public-read
+          bucket_acl = public-read
+          storage_class = STANDARD
+          no_check_bucket = true
           EOF
           
-      - name: Deploy to S3-compatible storage with s3cmd
+      - name: Deploy to S3-compatible storage with rclone
         run: |
           # Navigate to where the built files are
           cd gh-pages
           
           # Print info about deployment
-          echo "Using s3cmd to upload to S3-compatible storage"
+          echo "Using rclone to upload to S3-compatible storage"
           echo "Bucket: ${S3_BUCKET_NAME_MASKED}"
           
-          # Test bucket access
-          echo "Testing bucket access..."
-          if s3cmd ls s3://${{ secrets.S3_BUCKET_NAME }}/; then
+          # Create a mime types file to ensure proper content types
+          cat > mime.types << EOF
+          # MIME types for web content
+          text/html                                      html htm
+          text/css                                       css
+          text/javascript                                js
+          application/javascript                         js
+          application/json                               json
+          text/plain                                     txt md
+          image/jpeg                                     jpg jpeg
+          image/png                                      png
+          image/svg+xml                                  svg
+          image/webp                                     webp
+          image/gif                                      gif
+          application/pdf                                pdf
+          application/font-woff                          woff
+          application/font-woff2                         woff2
+          EOF
+          
+          # Test connection
+          echo "Testing connection to S3-compatible storage..."
+          if rclone ls s3:${{ secrets.S3_BUCKET_NAME }} --quiet; then
             echo "✅ Bucket exists and is accessible"
           else
             echo "❌ Bucket does not exist or is not accessible"
             exit 1
           fi
           
-          # First, remove all existing files in the bucket
-          echo "Clearing existing files from bucket..."
-          s3cmd del --recursive --force s3://${{ secrets.S3_BUCKET_NAME }}/
-          
-          # Upload all files first - this will use auto mime-type detection
-          echo "Uploading files to S3-compatible storage..."
-          s3cmd sync --verbose --progress \
-            --exclude=".git/*" \
-            --no-check-md5 \
-            --delete-removed \
-            --guess-mime-type \
-            --add-header="Content-Disposition: inline" \
-            ./ s3://${{ secrets.S3_BUCKET_NAME }}/
-          
-          # Set content types for specific file types to ensure proper handling
-          echo "Setting content types for HTML files..."
-          find . -name "*.html" | while read file; do
-            rel_path=${file#./}
-            echo "Setting content-type for: $rel_path"
-            s3cmd modify --mime-type="text/html" \
-              --add-header="Content-Disposition: inline" \
-              s3://${{ secrets.S3_BUCKET_NAME }}/$rel_path
-          done
-          
-          echo "Setting content types for CSS files..."
-          find . -name "*.css" | while read file; do
-            rel_path=${file#./}
-            s3cmd modify --mime-type="text/css" \
-              --add-header="Content-Disposition: inline" \
-              s3://${{ secrets.S3_BUCKET_NAME }}/$rel_path
-          done
-          
-          echo "Setting content types for JavaScript files..."
-          find . -name "*.js" | while read file; do
-            rel_path=${file#./}
-            s3cmd modify --mime-type="application/javascript" \
-              --add-header="Content-Disposition: inline" \
-              s3://${{ secrets.S3_BUCKET_NAME }}/$rel_path
-          done
+          # Sync files to S3, using proper metadata and content types
+          echo "Syncing files to S3-compatible storage..."
+          rclone sync --verbose --progress \
+            --checksum \
+            --update \
+            --delete-after \
+            --exclude ".git/**" \
+            --exclude "mime.types" \
+            --metadata-set "Content-Disposition=inline" \
+            --mime-file mime.types \
+            --s3-no-head \
+            --s3-no-check-bucket \
+            ./ s3:${{ secrets.S3_BUCKET_NAME }}
             
           echo "Successfully deployed to S3-compatible storage"
         env:
