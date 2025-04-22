@@ -46,7 +46,7 @@ jobs:
           # Extract domain from endpoint URL (remove https:// if present)
           ENDPOINT=$(echo "${{ secrets.S3_ENDPOINT_URL }}" | sed 's/https:\/\///')
           
-          # Create s3cmd config file
+          # Create s3cmd config file with MIME type settings
           cat > ~/.s3cfg << EOF
           [default]
           access_key = ${{ secrets.S3_ACCESS_KEY }}
@@ -59,6 +59,8 @@ jobs:
           # Enable verbose output and progress meter
           verbose = True
           progress_meter = True
+          # Enable proper MIME types detection
+          guess_mime_type = True
           EOF
           
       - name: Deploy to S3-compatible storage with s3cmd
@@ -83,10 +85,111 @@ jobs:
           echo "Clearing existing files from bucket..."
           s3cmd del --recursive --force s3://${{ secrets.S3_BUCKET_NAME }}/
           
+          # Create a mime type mapping file
+          echo "Setting up MIME type mappings..."
+          cat > /tmp/mime.types << EOL
+          text/html: html htm
+          text/css: css
+          application/javascript: js
+          application/json: json
+          image/svg+xml: svg
+          image/png: png
+          image/jpeg: jpg jpeg
+          image/gif: gif
+          application/pdf: pdf
+          text/plain: txt md
+          application/font-woff: woff
+          application/font-woff2: woff2
+          EOL
+          
           # Upload all files with progress display
           echo "Uploading files to S3-compatible storage..."
-          s3cmd sync --verbose --progress --exclude=".git/*" \
-            --no-check-md5 ./ s3://${{ secrets.S3_BUCKET_NAME }}/
+          
+          # Create a script to upload files with proper content types
+          cat > upload.sh << 'EOL'
+          #!/bin/bash
+          
+          # Set up empty meta files directory
+          mkdir -p .meta
+          
+          # Process each file type and create meta files
+          find . -type f -not -path "./.git/*" -not -path "./.meta/*" -not -name "upload.sh" | while read file; do
+            # Skip directories
+            if [ -d "$file" ]; then continue; fi
+            
+            # Get file extension
+            ext="${file##*.}"
+            content_type=""
+            
+            # Set content type based on extension
+            case "$ext" in
+              html|htm)
+                content_type="text/html"
+                ;;
+              css)
+                content_type="text/css"
+                ;;
+              js)
+                content_type="application/javascript"
+                ;;
+              json)
+                content_type="application/json"
+                ;;
+              svg)
+                content_type="image/svg+xml"
+                ;;
+              png)
+                content_type="image/png"
+                ;;
+              jpg|jpeg)
+                content_type="image/jpeg"
+                ;;
+              gif)
+                content_type="image/gif"
+                ;;
+              pdf)
+                content_type="application/pdf"
+                ;;
+              woff)
+                content_type="application/font-woff"
+                ;;
+              woff2)
+                content_type="application/font-woff2"
+                ;;
+              *)
+                content_type="binary/octet-stream"
+                ;;
+            esac
+            
+            # Create meta file if content type was determined
+            if [ ! -z "$content_type" ]; then
+              meta_file=".meta/${file}"
+              mkdir -p "$(dirname "$meta_file")"
+              echo "Content-Type: $content_type" > "$meta_file"
+            fi
+          done
+          
+          # Upload with s3cmd using meta files for content types
+          s3cmd sync --verbose --progress \
+            --exclude=".git/*" \
+            --exclude=".meta/*" \
+            --exclude="upload.sh" \
+            --no-check-md5 \
+            --delete-removed \
+            --skip-existing \
+            --guess-mime-type \
+            --no-preserve \
+            --meta-dir=.meta \
+            --add-header="Content-Disposition: inline" \
+            ./ s3://$1/
+          
+          EOL
+          
+          # Make script executable
+          chmod +x upload.sh
+          
+          # Run upload script
+          ./upload.sh ${{ secrets.S3_BUCKET_NAME }}
             
           echo "Successfully deployed to S3-compatible storage"
         env:
