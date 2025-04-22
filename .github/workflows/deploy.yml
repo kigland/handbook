@@ -68,25 +68,6 @@ jobs:
           echo "Using rclone to upload to S3-compatible storage"
           echo "Bucket: ${S3_BUCKET_NAME_MASKED}"
           
-          # Create a mime types file to ensure proper content types
-          cat > mime.types << EOF
-          # MIME types for web content
-          text/html                                      html htm
-          text/css                                       css
-          text/javascript                                js
-          application/javascript                         js
-          application/json                               json
-          text/plain                                     txt md
-          image/jpeg                                     jpg jpeg
-          image/png                                      png
-          image/svg+xml                                  svg
-          image/webp                                     webp
-          image/gif                                      gif
-          application/pdf                                pdf
-          application/font-woff                          woff
-          application/font-woff2                         woff2
-          EOF
-          
           # Test connection
           echo "Testing connection to S3-compatible storage..."
           if rclone ls s3:${{ secrets.S3_BUCKET_NAME }} --quiet; then
@@ -96,19 +77,74 @@ jobs:
             exit 1
           fi
           
-          # Sync files to S3, using proper metadata and content types
-          echo "Syncing files to S3-compatible storage..."
+          # Create a helper script to upload files with proper Content-Type
+          cat > upload.sh << 'EOF'
+          #!/bin/bash
+          BUCKET=$1
+          
+          # Common file types and their MIME types
+          declare -A mime_types
+          mime_types["html"]="text/html"
+          mime_types["htm"]="text/html"
+          mime_types["css"]="text/css"
+          mime_types["js"]="application/javascript"
+          mime_types["json"]="application/json"
+          mime_types["png"]="image/png"
+          mime_types["jpg"]="image/jpeg"
+          mime_types["jpeg"]="image/jpeg"
+          mime_types["gif"]="image/gif"
+          mime_types["svg"]="image/svg+xml"
+          mime_types["webp"]="image/webp"
+          mime_types["pdf"]="application/pdf"
+          mime_types["woff"]="application/font-woff"
+          mime_types["woff2"]="application/font-woff2"
+          mime_types["txt"]="text/plain"
+          mime_types["md"]="text/plain"
+          
+          # First sync everything as binary to ensure all files get transferred
+          echo "Syncing all files (initial pass)..."
           rclone sync --verbose --progress \
             --checksum \
             --update \
             --delete-after \
             --exclude ".git/**" \
-            --exclude "mime.types" \
-            --metadata-set "Content-Disposition=inline" \
-            --mime-file mime.types \
-            --s3-no-head \
+            --exclude "upload.sh" \
             --s3-no-check-bucket \
-            ./ s3:${{ secrets.S3_BUCKET_NAME }}
+            ./ s3:${BUCKET}
+            
+          # Now set the correct Content-Type and Content-Disposition for common file types
+          echo "Setting correct Content-Type for files..."
+          
+          for ext in "${!mime_types[@]}"; do
+            echo "Processing *.${ext} files with MIME type: ${mime_types[$ext]}"
+            
+            # Find all files with this extension
+            find . -type f -name "*.${ext}" | while read file; do
+              file_path=${file#./}
+              echo "Setting metadata for: $file_path"
+              
+              # Set the content-type and disposition
+              rclone touch s3:${BUCKET}/${file_path} \
+                --metadata="Content-Type=${mime_types[$ext]}" \
+                --metadata="Content-Disposition=inline"
+            done
+          done
+          
+          # For any other files, at least set Content-Disposition
+          echo "Setting Content-Disposition for remaining files..."
+          rclone lsf s3:${BUCKET} --recursive | grep -v -E '\.(html|htm|css|js|json|png|jpg|jpeg|gif|svg|webp|pdf|woff|woff2|txt|md)$' | while read file; do
+            echo "Setting Content-Disposition for: $file"
+            rclone touch s3:${BUCKET}/$file --metadata="Content-Disposition=inline"
+          done
+          
+          echo "Upload completed with proper metadata."
+          EOF
+          
+          # Make script executable
+          chmod +x upload.sh
+          
+          # Run the upload script
+          ./upload.sh ${{ secrets.S3_BUCKET_NAME }}
             
           echo "Successfully deployed to S3-compatible storage"
         env:
