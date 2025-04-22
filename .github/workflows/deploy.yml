@@ -1,0 +1,94 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # To push a branch
+      pull-requests: write # To create a PR from that branch
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Install latest mdbook
+        run: |
+          tag=$(curl 'https://api.github.com/repos/rust-lang/mdbook/releases/latest' | jq -r '.tag_name')
+          url="https://github.com/rust-lang/mdbook/releases/download/${tag}/mdbook-${tag}-x86_64-unknown-linux-gnu.tar.gz"
+          mkdir mdbook
+          curl -sSL $url | tar -xz --directory=./mdbook
+          echo `pwd`/mdbook >> $GITHUB_PATH
+      - name: Deploy GitHub Pages
+        run: |
+          # This assumes your book is in the root of your repository.
+          # Just add a `cd` here if you need to change to another directory.
+          mdbook build
+          git worktree add gh-pages
+          git config user.name "Deploy from CI"
+          git config user.email ""
+          cd gh-pages
+          # Delete the ref to avoid keeping history.
+          git update-ref -d refs/heads/gh-pages
+          rm -rf *
+          mv ../book/* .
+          git add .
+          git commit -m "Deploy $GITHUB_SHA to gh-pages"
+          git push --force --set-upstream origin gh-pages
+          
+      - name: Install and Configure rclone
+        run: |
+          # Install rclone
+          curl https://rclone.org/install.sh | sudo bash
+          
+          # Configure rclone for S3 compatible storage
+          mkdir -p ~/.config/rclone
+          cat > ~/.config/rclone/rclone.conf << EOF
+          [s3]
+          type = s3
+          provider = Other
+          env_auth = false
+          access_key_id = ${{ secrets.S3_ACCESS_KEY }}
+          secret_access_key = ${{ secrets.S3_SECRET_KEY }}
+          endpoint = ${{ secrets.S3_ENDPOINT_URL }}
+          acl = public-read
+          bucket_acl = public-read
+          storage_class = STANDARD
+          no_check_bucket = true
+          EOF
+          
+      - name: Deploy to S3-compatible storage with rclone
+        run: |
+          # Navigate to where the built files are
+          cd gh-pages
+          
+          # Print info about deployment
+          echo "Using rclone to upload to S3-compatible storage"
+          echo "Bucket: ${S3_BUCKET_NAME_MASKED}"
+          
+          # Test connection
+          echo "Testing connection to S3-compatible storage..."
+          if rclone ls s3:${{ secrets.S3_BUCKET_NAME }} --quiet; then
+            echo "✅ Bucket exists and is accessible"
+          else
+            echo "❌ Bucket does not exist or is not accessible"
+            exit 1
+          fi
+          
+          # Sync all files to S3, using proper metadata and content types
+          echo "Syncing files to S3-compatible storage..."
+          rclone sync --verbose --progress \
+            --checksum \
+            --update \
+            --delete-after \
+            --exclude ".git/**" \
+            --header-upload "Content-Disposition: inline" \
+            --s3-no-check-bucket \
+            ./ s3:${{ secrets.S3_BUCKET_NAME }}
+            
+          echo "Successfully deployed to S3-compatible storage"
+        env:
+          # Mask sensitive data in logs
+          S3_BUCKET_NAME_MASKED: "${{ secrets.S3_BUCKET_NAME }}"
