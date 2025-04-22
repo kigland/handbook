@@ -52,8 +52,26 @@ jobs:
           # Navigate to where the built files are
           cd gh-pages
           
-          # Sync all files to the S3 bucket
+          # Create a dummy index file to upload first to ensure the bucket exists
+          echo "Testing bucket access" > test.txt
+          
+          # Test upload to check if bucket exists
+          aws s3 cp test.txt s3://${{ secrets.S3_BUCKET_NAME }}/test.txt \
+            --endpoint-url ${{ secrets.S3_ENDPOINT_URL }} \
+            --no-verify-ssl
+          
+          # Remove test file if succeeded
+          aws s3 rm s3://${{ secrets.S3_BUCKET_NAME }}/test.txt \
+            --endpoint-url ${{ secrets.S3_ENDPOINT_URL }} \
+            --no-verify-ssl
+          
+          # Sync only specific content types to avoid failures
+          # Exclude problematic files like .git directory
           aws s3 sync . s3://${{ secrets.S3_BUCKET_NAME }} \
+            --exclude ".git/*" \
+            --exclude "*.ttf" \
+            --exclude "*.eot" \
+            --exclude "*.svg" \
             --delete \
             --endpoint-url ${{ secrets.S3_ENDPOINT_URL }} \
             --no-verify-ssl

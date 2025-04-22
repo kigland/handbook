@@ -20,9 +20,23 @@
 1. `S3_ACCESS_KEY` - S3 兼容服务的访问密钥
 2. `S3_SECRET_KEY` - S3 兼容服务的秘密密钥
 3. `S3_REGION` - S3 服务的区域名称（对于某些第三方服务，可使用其建议的区域值）
-4. `S3_ENDPOINT_URL` - S3 兼容服务的 API 端点 URL（不包含 bucket 名称的完整 URL）
-5. `S3_BUCKET_NAME` - 要部署到的存储桶名称
+4. `S3_ENDPOINT_URL` - S3 兼容服务的 API 端点 URL（完整的服务端点 URL，例如 `https://obs.cn-north-4.myhuaweicloud.com`）
+5. `S3_BUCKET_NAME` - 要部署到的存储桶名称（确保此存储桶已经创建且有写入权限）
 
 可以在 GitHub 仓库的 Settings → Secrets and variables → Actions 页面中添加这些 secrets。
 
-**注意**：工作流配置已针对第三方 S3 兼容服务进行了优化，不使用标准的 AWS 验证流程，而是直接配置 AWS CLI 凭证，并在 S3 命令中使用 `--endpoint-url` 和 `--no-verify-ssl` 参数来确保兼容性。
+**注意事项**：
+
+1. 工作流配置已针对第三方 S3 兼容服务（如华为云 OBS）进行了优化：
+   - 直接配置 AWS CLI 凭证而不使用标准 AWS 验证流程
+   - 使用 `--endpoint-url` 参数指定服务端点
+   - 使用 `--no-verify-ssl` 参数避免 SSL 验证问题
+   
+2. 为避免上传错误，工作流会：
+   - 先测试桶是否存在和可访问
+   - 排除可能导致问题的文件类型（.git、字体文件等）
+   
+3. 如果使用华为云 OBS，请确保：
+   - 存储桶已创建并可访问
+   - 权限配置允许写入操作
+   - S3_BUCKET_NAME 参数正确匹配您的存储桶名称
