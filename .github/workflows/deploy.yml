@@ -38,13 +38,14 @@ jobs:
           git commit -m "Deploy $GITHUB_SHA to gh-pages"
           git push --force --set-upstream origin gh-pages
           
-      - name: Configure AWS CLI for S3-compatible service
-        uses: aws-actions/configure-aws-credentials@v2
-        with:
-          aws-access-key-id: ${{ secrets.S3_ACCESS_KEY }}
-          aws-secret-access-key: ${{ secrets.S3_SECRET_KEY }}
-          aws-region: ${{ secrets.S3_REGION }}
-          endpoint-url: ${{ secrets.S3_ENDPOINT_URL }}
+      - name: Setup AWS CLI credentials
+        run: |
+          mkdir -p ~/.aws
+          echo "[default]" > ~/.aws/credentials
+          echo "aws_access_key_id = ${{ secrets.S3_ACCESS_KEY }}" >> ~/.aws/credentials
+          echo "aws_secret_access_key = ${{ secrets.S3_SECRET_KEY }}" >> ~/.aws/credentials
+          echo "[default]" > ~/.aws/config
+          echo "region = ${{ secrets.S3_REGION }}" >> ~/.aws/config
           
       - name: Deploy to S3-compatible storage
         run: |
@@ -54,6 +55,7 @@ jobs:
           # Sync all files to the S3 bucket
           aws s3 sync . s3://${{ secrets.S3_BUCKET_NAME }} \
             --delete \
-            --endpoint-url ${{ secrets.S3_ENDPOINT_URL }}
+            --endpoint-url ${{ secrets.S3_ENDPOINT_URL }} \
+            --no-verify-ssl
             
           echo "Successfully deployed to S3-compatible storage"
