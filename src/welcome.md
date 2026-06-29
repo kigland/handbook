@@ -26,12 +26,15 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 
 | 我想… | 看这里 |
 |-------|--------|
-| 🤔 了解什么是 Kigurumi | [→ 什么是 Kigurumi](./what-is-kigurumi.md) |
-| ⭐ 为什么选择 KIGLAND | [→ 为什么选择 KIGLAND](./why-kigland.md) |
+| 🤔 了解什么是 Kigurumi | [→ 什么是 Kigurumi / What is Kigurumi](./what-is-kigurumi.md) |
+| 🪞 了解 Mirror Moment | [→ Mirror Moment 镜面时刻](./mirror-moment.md) |
+| ⭐ 为什么选择 KIGLAND | [→ 为什么选择 KIGLAND / Why KIGLAND](./why-kigland.md) |
+| 🎭 了解产品系列与型号 | [→ 产品系列介绍 / Product Lineup](./products.md) |
 | 🛒 了解下单流程和条款 | [→ 流程须知 / Process Instructions](./flow.md) |
 | 📏 自己测量尺寸 | [→ 测量指南 (中文) / Measurement (ZH)](./measurement.md) |
 | 📏 Take my measurements | [→ Measurement Guide (EN)](./measurement_en.md) |
 | 👕 了解 MAICRA 打底衣 | [→ MAICRA 产品 / Product Page](./MAICRA.md) |
+| 📦 下载开源模型 | [→ 开源资源 / Open Source](./open-source.md) |
 
 ---
 
