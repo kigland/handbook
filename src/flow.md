@@ -38,6 +38,8 @@ please read the following terms carefully, accepting the service means you under
 
 > ⚠ 请您务必仔细阅读以上条款，如有疑问，请联系客服。
 >
+> 本文档创建时间较早，同时提供中文和英文版本，请根据需要选择阅读。
+>
 > QQ 群：903520753  
 > 淘宝：[KIGLAND](https://kigland.taobao.com/)  
 > X.com：[KIGLAND staff - Remi IO](https://x.com/Remi_IO)
