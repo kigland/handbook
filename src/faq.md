@@ -26,37 +26,6 @@
 
 ---
 
-## 关于下单 / Ordering
-
-**Q: 怎么下单？**
-
-1. 阅读[流程须知](./flow.md)
-2. 按[测量指南](./measurement.md)提交头围、肩宽等尺寸
-3. 联系客服确认需求和报价
-4. 淘宝下单，进入排单
-
-**Q: 价格大概多少？**
-
-- Type-M（标准化平价）：998 元起
-- Type-C（角色定制）：根据复杂度评估
-- Type-G（高阶定制）：289 USD 起
-
-市面上传统定制头壳多在 5,000-10,000 元区间。
-
-**Q: 要等多久？**
-
-定制类通常 60-90 天。标准化产品会更快，具体看排单情况。
-
-**Q: 海外可以下单吗？**
-
-可以。支持国际快递（顺丰/菜鸟），联系客服确认物流方案。
-
-**Q: 需要提供什么资料？**
-
-Type-M：肩宽等基本尺寸即可。Type-C 和 Type-G：需要角色设定图、三视图、参考图，越完整越好。
-
----
-
 ## 关于穿戴使用 / Wearing & Using
 
 **Q: 戴头壳以后怎么交流？**
@@ -103,7 +72,7 @@ Type-M：肩宽等基本尺寸即可。Type-C 和 Type-G：需要角色设定图
 
 **Q: 收到后有质量问题怎么办？**
 
-签收 24 小时内联系客服，提供照片。运输损坏免费维修。
+联系客服并提供照片，我们会根据具体情况处理。
 
 **Q: 可以退换吗？**
 
@@ -111,7 +80,7 @@ Type-M：肩宽等基本尺寸即可。Type-C 和 Type-G：需要角色设定图
 
 **Q: 保修多久？**
 
-签收后 30 天内非人为损坏免费维修，180 天内可按 50% 费用维修。
+签收后有保修期，非人为损坏可维修。具体保修范围和期限以售后条款为准。
 
 ---
 
@@ -132,22 +101,6 @@ Yes. Summer wear can be challenging. Some models support internal fans. Take bre
 **Q: Can men do this?**
 
 Absolutely. Kigurumi isn't gender-specific, and a significant portion of the community is male.
-
-**Q: How do I order?**
-
-Read the [Process Instructions](./flow.md), submit your measurements, contact customer service, and place the order on Taobao.
-
-**Q: How much does it cost?**
-
-Type-M starts at ¥998. Type-C and Type-G are custom-quoted. Traditional custom shells elsewhere typically run ¥5,000-¥10,000.
-
-**Q: How long does it take?**
-
-Custom: 60-90 days typically. Standard models are faster.
-
-**Q: Do you ship internationally?**
-
-Yes, via SF Express / Cainiao. Contact us for logistics details.
 
 **Q: Can I return it?**
 
