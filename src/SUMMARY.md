@@ -6,10 +6,8 @@
 
 # 了解 Kigurumi
 
-- [🤔 什么是 Kigurumi](./what-is-kigurumi.md)
-- [🤔 What is Kigurumi](./what-is-kigurumi_en.md)
-- [⭐ 为什么选择 KIGLAND](./why-kigland.md)
-- [⭐ Why KIGLAND](./why-kigland_en.md)
+- [🤔 什么是 Kigurumi / What is Kigurumi](./what-is-kigurumi.md)
+- [⭐ 为什么选择 KIGLAND / Why KIGLAND](./why-kigland.md)
 
 # 下单前
 
