@@ -1,8 +1,6 @@
 # 流程须知（Process Instructions）
 
-> 本文档创建时间较早，同时提供中文和英文版本，请根据需要选择阅读。This document was created earlier and is provided in both Chinese and English.
-
-> [🇨🇳 简体中文](#流程须知)
+> 本文档创建时间较早，同时提供中文和英文版本，请根据需要选择阅读。This document was created earlier and is provided in both Chinese and English. — [🇨🇳 跳转至简体中文 / Jump to Chinese](#流程须知)
 
 ## Process Instructions
 
