@@ -11,7 +11,6 @@
 
 # 下单前
 
-- [🐣 第一次？/ New Here?](./first-time.md)
 - [🔁 流程須知 (Process Instructions)](./flow.md)
 - [📏 测量指南](./measurement.md)
 - [📏 Measurement Guide](./measurement_en.md)
