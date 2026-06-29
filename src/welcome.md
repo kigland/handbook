@@ -26,23 +26,13 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 
 | 我想… | 看这里 |
 |-------|--------|
+| 🤔 了解什么是 Kigurumi | [→ 什么是 Kigurumi](./what-is-kigurumi.md) |
+| ⭐ 为什么选择 KIGLAND | [→ 为什么选择 KIGLAND](./why-kigland.md) |
+| 🐣 第一次来，如何下单 | [→ 第一次？/ New Here?](./first-time.md) |
 | 🛒 了解下单流程和条款 | [→ 流程须知 / Process Instructions](./flow.md) |
 | 📏 自己测量尺寸 | [→ 测量指南 (中文) / Measurement (ZH)](./measurement.md) |
 | 📏 Take my measurements | [→ Measurement Guide (EN)](./measurement_en.md) |
 | 👕 了解 MAICRA 打底衣 | [→ MAICRA 产品 / Product Page](./MAICRA.md) |
-
----
-
-## 第一次？/ New Here?
-
-> 👉 初次了解 Kigurumi 请阅读 [快速入门 / Quick Start Guide](https://how.kig.land/get-start)
-
-下单流程：
-
-1. 阅读 [流程须知 / Process Instructions](./flow.md)
-2. 按 [测量指南 / Measurement Guide](./measurement.md) 提供尺寸
-3. 联系客服确认需求和报价
-4. 淘宝下单，进入排单
 
 ---
 

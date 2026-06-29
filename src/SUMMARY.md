@@ -4,8 +4,14 @@
 
 - [👏 欢迎 - Welcome](./welcome.md)
 
+# 了解 Kigurumi
+
+- [🤔 什么是 Kigurumi](./what-is-kigurumi.md)
+- [⭐ 为什么选择 KIGLAND](./why-kigland.md)
+
 # 下单前
 
+- [🐣 第一次？/ New Here?](./first-time.md)
 - [🔁 流程須知 (Process Instructions)](./flow.md)
 - [📏 测量指南](./measurement.md)
 - [📏 Measurement Guide](./measurement_en.md)
