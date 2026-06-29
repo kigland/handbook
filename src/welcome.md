@@ -24,17 +24,37 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 
 ## 快速导航 / Quick Links
 
-| 我想… | 看这里 |
-|-------|--------|
-| 🤔 了解什么是 Kigurumi | [→ 什么是 Kigurumi / What is Kigurumi](./what-is-kigurumi.md) |
-| 🪞 了解 Mirror Moment | [→ Mirror Moment 镜面时刻](./mirror-moment.md) |
-| ⭐ 为什么选择 KIGLAND | [→ 为什么选择 KIGLAND / Why KIGLAND](./why-kigland.md) |
-| 🎭 了解产品系列与型号 | [→ 产品系列介绍 / Product Lineup](./products.md) |
-| 🛒 了解下单流程和条款 | [→ 流程须知 / Process Instructions](./flow.md) |
-| 📏 自己测量尺寸 | [→ 测量指南 (中文) / Measurement (ZH)](./measurement.md) |
-| 📏 Take my measurements | [→ Measurement Guide (EN)](./measurement_en.md) |
-| 👕 了解 MAICRA 打底衣 | [→ MAICRA 产品 / Product Page](./MAICRA.md) |
-| 📦 下载开源模型 | [→ 开源资源 / Open Source](./open-source.md) |
+[什么是 Kigurumi](./what-is-kigurumi.md) — Kigurumi 的完整介绍：它和传统 Cosplay 的区别、头壳如何制作、为什么门槛比想象中低，以及它怎样帮你建立第二身份。
+
+What is Kigurumi — a full intro: how it differs from cosplay, how headshells are made, why the barrier is lower than you think, and how it helps build a second identity.
+
+[Mirror Moment 镜面时刻](./mirror-moment.md) — 第一次在镜子里看见自己变成角色的那一刻。为什么这个瞬间重要、它通常如何发生、怎样让自己更容易进入状态。
+
+The Mirror Moment — the first time you see yourself as the character in a mirror. Why it matters, how it unfolds, and how to make it happen more naturally.
+
+[为什么选择 KIGLAND](./why-kigland.md) — 998 元起的价格怎么做到的、KIGLAND 的公司背景与服务承诺、以及我们的供应链和出货经验。
+
+Why KIGLAND — how we brought pricing down to ¥998, our company background and service commitment, and what our production volume means for you.
+
+[产品系列介绍](./products.md) — M.A.G.I.C 命名体系下的 Type-A、Type-M、Type-C、Type-G、Type-I 分别是什么，适合什么样的玩家。
+
+Product Lineup — the M.A.G.I.C naming system: what Type-A, Type-M, Type-C, Type-G, and Type-I each mean and who they're for.
+
+[流程须知](./flow.md) — 下单前需要了解的流程、条款和注意事项。
+
+Process Instructions — what to know before ordering: process, terms, and important notes.
+
+[测量指南](./measurement.md) — 头壳和紧身衣的测量方法，提交尺寸前必读。另有 [英文版](./measurement_en.md)。
+
+Measurement Guide — how to measure for headshells and zentai. Required reading before submitting your measurements. [English version](./measurement_en.md) also available.
+
+[MAICRA 打底衣](./MAICRA.md) — KIGLAND 的 Kigurumi 专用打底衣"皮"。
+
+MAICRA Zentai — KIGLAND's kigurumi-specific bodysuit (the "skin").
+
+[开源资源](./open-source.md) — 免费下载 TYPE-M 面基底座 STL 和 Blender 工程文件。
+
+Open Source — free STL face base and Blender project files from the TYPE-M series.
 
 ---
 
