@@ -22,61 +22,39 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 
 ---
 
-## 快速导航 / Quick Links
-
-- **🤔 [什么是 Kigurumi](./what-is-kigurumi.md)** — 了解 Kigurumi 的完整介绍：它和 Cosplay 的区别、头壳如何制作、为什么门槛比想象中低，以及如何建立第二身份。
-
-- **🪞 [Mirror Moment 镜面时刻](./mirror-moment.md)** — 第一次在镜子里看见自己变成角色的那一刻。为什么重要、如何发生、怎样更容易进入状态。
-
-- **⭐ [为什么选择 KIGLAND](./why-kigland.md)** — 998 元起的价格怎么做到的、KIGLAND 的公司背景与服务承诺、我们的供应链和出货经验。
-
-- **🎭 [产品系列介绍](./products.md)** — M.A.G.I.C 命名体系下的 Type-M、Type-C、Type-G 等分别是什么，适合什么样的玩家。
-
-- **🛒 [如何订购](./how-to-order.md)** — 标准款和定制款怎么选、下单到交付的完整步骤。
-
-- **🔁 [流程须知](./flow.md)** — 下单前需要了解的条款和注意事项。
-
-- **📏 [测量指南](./measurement.md)** — 头壳和紧身衣的测量方法，提交尺寸前必读。
-
-- **👕 [MAICRA 打底衣](./MAICRA.md)** — KIGLAND 的 Kigurumi 专用打底衣"皮"。
-
-- **📦 [开源资源](./open-source.md)** — 免费下载 TYPE-M 面基底座 STL 和 Blender 工程文件。
-
----
-
-### Quick Links (EN)
-
-- **🤔 [What is Kigurumi](./what-is-kigurumi.md)** — A full intro: how it differs from cosplay, how headshells are made, and how to build a second identity.
-
-- **🪞 [Mirror Moment](./mirror-moment.md)** — The first time you see yourself as the character in a mirror. Why it matters and how it happens.
-
-- **⭐ [Why KIGLAND](./why-kigland.md)** — How we brought pricing down to ¥998, our company background, and what our production volume means for you.
-
-- **🎭 [Product Lineup](./products.md)** — The M.A.G.I.C naming system: what each Type means and who it's for.
-
-- **🛒 [How to Order](./how-to-order.md)** — Standard vs. custom, and the full step-by-step from order to delivery.
-
-- **🔁 [Process Instructions](./flow.md)** — Terms and important notes to know before ordering.
-
-- **📏 [Measurement Guide](./measurement_en.md)** — How to measure for headshells and zentai. Required reading before submitting.
-
-- **👕 [MAICRA Zentai](./MAICRA.md)** — KIGLAND's kigurumi-specific bodysuit (the "skin").
-
-- **📦 [Open Source](./open-source.md)** — Free STL face base and Blender project files from the TYPE-M series.
-
----
-
 ## 第一次？/ New Here?
 
 > 👉 初次了解 Kigurumi 请阅读 [快速入门 / Quick Start Guide](https://how.kig.land/get-start)
 
-下单流程：
+下单流程 / Ordering steps：
 
-1. 阅读 [如何订购 / How to Order](./how-to-order.md) 了解标准款与定制款
-2. 阅读 [流程须知 / Process Instructions](./flow.md) 确认条款
-3. 按 [测量指南 / Measurement Guide](./measurement.md) 提供尺寸
-4. 联系客服确认需求和报价
-5. 淘宝下单，进入排单
+1. 阅读 [如何订购 / How to Order](./how-to-order.md) 了解标准款与定制款 — *Standard vs. custom*
+2. 阅读 [流程须知 / Process Instructions](./flow.md) 确认条款 — *Read the terms*
+3. 按 [测量指南 / Measurement Guide](./measurement.md) 提供尺寸 — *Submit your measurements*
+4. 联系客服确认需求和报价 — *Confirm needs & quote with us*
+5. 淘宝下单，进入排单 — *Place the order on Taobao*
+
+---
+
+## 快速导航 / Quick Links
+
+- **🤔 [什么是 Kigurumi / What is Kigurumi](./what-is-kigurumi.md)** — 和 Cosplay 的区别、头壳如何制作、如何建立第二身份。*How it differs from cosplay, how headshells are made, building a second identity.*
+
+- **🪞 [Mirror Moment 镜面时刻 / Mirror Moment](./mirror-moment.md)** — 第一次在镜子里变成角色的那一刻：为什么重要、如何更容易进入。*The first time you see yourself as the character — why it matters and how it happens.*
+
+- **⭐ [为什么选择 KIGLAND / Why KIGLAND](./why-kigland.md)** — 998 元起怎么做到、公司背景与供应链经验。*How we reached ¥998, our company background and production experience.*
+
+- **🎭 [产品系列介绍 / Product Lineup](./products.md)** — M.A.G.I.C 体系下 Type-M、Type-C、Type-G 分别是什么、适合谁。*The M.A.G.I.C system: what each Type means and who it's for.*
+
+- **🛒 [如何订购 / How to Order](./how-to-order.md)** — 标准款和定制款怎么选、下单到交付的完整步骤。*Standard vs. custom, and the full step-by-step.*
+
+- **🔁 [流程须知 / Process Instructions](./flow.md)** — 下单前需要了解的条款和注意事项。*Terms and notes to know before ordering.*
+
+- **📏 [测量指南](./measurement.md) / [Measurement Guide (EN)](./measurement_en.md)** — 头壳和紧身衣的测量方法，提交尺寸前必读。*How to measure for headshells and zentai.*
+
+- **👕 [MAICRA 打底衣 / MAICRA Zentai](./MAICRA.md)** — KIGLAND 的 Kigurumi 专用打底衣"皮"。*KIGLAND's kigurumi-specific bodysuit (the "skin").*
+
+- **📦 [开源资源 / Open Source](./open-source.md)** — 免费下载 TYPE-M 面基底座 STL 和 Blender 工程文件。*Free STL face base and Blender project files.*
 
 ---
 
