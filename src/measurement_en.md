@@ -1,4 +1,4 @@
-# MEASUREMENT GUIDE
+# Measurement Guide (EN)
 
 <div style="border-radius: 8px; border: 1px solid #00f; padding: 10px; background-color: #f0f8ff;">
  <div style="margin-left:4px;">

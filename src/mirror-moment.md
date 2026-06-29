@@ -1,4 +1,4 @@
-# 什么是 Mirror Moment / What is Mirror Moment
+# Mirror Moment 镜面时刻 / Mirror Moment
 
 Mirror Moment（镜面时刻）是 KIGLAND 非常重视的一种用户体验：当玩家第一次戴上 Kigurumi 头壳或完整造型，在镜子、手机前置摄像头、镜头或他人视角中看到自己时，突然意识到"我真的变成了这个角色"的那个瞬间。
 
