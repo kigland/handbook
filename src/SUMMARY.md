@@ -7,6 +7,7 @@
 # 了解 Kigurumi
 
 - [🤔 什么是 Kigurumi / What is Kigurumi](./what-is-kigurumi.md)
+- [🪞 Mirror Moment 镜面时刻](./mirror-moment.md)
 - [⭐ 为什么选择 KIGLAND / Why KIGLAND](./why-kigland.md)
 
 # 下单前
