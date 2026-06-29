@@ -1,5 +1,7 @@
 # 流程须知（Process Instructions）
 
+> 本文档创建时间较早，同时提供中文和英文版本，请根据需要选择阅读。This document was created earlier and is provided in both Chinese and English.
+
 > [🇨🇳 简体中文](#流程须知)
 
 ## Process Instructions
@@ -37,8 +39,6 @@ please read the following terms carefully, accepting the service means you under
 10. **禁止商用**：服务及成品禁止商业使用。如需商用，请联系客服，获取企业级服务和优惠政策。
 
 > ⚠ 请您务必仔细阅读以上条款，如有疑问，请联系客服。
->
-> 本文档创建时间较早，同时提供中文和英文版本，请根据需要选择阅读。
 >
 > QQ 群：903520753  
 > 淘宝：[KIGLAND](https://kigland.taobao.com/)  
