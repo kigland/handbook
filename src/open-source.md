@@ -1,19 +1,29 @@
 # 开源资源 / Open Source
 
+## KIGLAND TYPE-M 06-1 布线模型 / Blender Mesh
+
+Blender 工程文件，包含完整的布线网格。可以自由编辑面型、调整结构、导出你自己的版本。
+
+Full Blender project with editable mesh. Modify the face shape, tweak the structure, and export your own version.
+
+| 资源 | 链接 |
+|------|------|
+| 📥 Thingiverse 下载 | [thing:7354352](https://www.thingiverse.com/thing:7354352) |
+| 🐦 X / Twitter 发布 | [@Remi_IO](https://x.com/Remi_IO/status/2055960272326852610) |
+
+---
+
 ## KIGLAND TYPE-M 06-2 面基底座 / Face Base
 
-我们开源了一款 TYPE-M 系列的 Kigurumi 面基底座 STL 文件，供社区玩家自由下载、3D 打印、涂装练习和二次修改。
+STL 文件，可直接切片打印。适合涂装练习、结构研究和快速上手。
 
-We open-sourced a TYPE-M series face base STL for the community — free to download, 3D print, paint, and modify.
+STL file, ready to slice and print. Great for painting practice, structure study, and quick start.
 
-### 下载 / Download
+| 资源 | 链接 |
+|------|------|
+| 📥 Thingiverse 下载 | [thing:7351107](https://www.thingiverse.com/thing:7351107) |
+| 💬 Reddit 发布 | [r/kigurumi](https://www.reddit.com/r/kigurumi/comments/1ta10wx/i_opensourced_a_cute_stl_face_base_for_kigurumi/) |
 
-- [Thingiverse: KIGLAND TYPE-M 06-2 OPEN VERSION](https://www.thingiverse.com/thing:7351107)
-
-### 社区讨论 / Community
-
-- [Reddit r/kigurumi — 发布帖 / Announcement Post](https://www.reddit.com/r/kigurumi/comments/1ta10wx/i_opensourced_a_cute_stl_face_base_for_kigurumi/)
-
-> 这个模型主要用于学习、练习和二次创作。下载即可开始你的 Kigurumi 头壳制作尝试。
+> 两个模型均来自 KIGLAND TYPE-M 系列。06-1 适合需要深度定制的玩家，06-2 适合快速打印入门。自由选择。
 >
-> This model is intended for study, practice, and derivative work. Download and start your Kigurumi head-making experiment.
+> Both models are from the KIGLAND TYPE-M series. 06-1 is for deep customization (editable mesh), 06-2 for quick print entry. Pick what fits you.
