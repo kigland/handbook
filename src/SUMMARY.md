@@ -19,3 +19,7 @@
 # 产品系列
 
 - [👕 MAICRA 打底衣 “皮”](./MAICRA.md)
+
+# 开源资源
+
+- [📦 开源资源 / Open Source](./open-source.md)
