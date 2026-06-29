@@ -6,6 +6,8 @@ Blender 工程文件，包含完整的布线网格。可以自由编辑面型、
 
 Full Blender project with editable mesh. Modify the face shape, tweak the structure, and export your own version.
 
+![TYPE-M 06-1](./assets/open-source/open-m06.jpg)
+
 | 资源 | 链接 |
 |------|------|
 | 📥 Thingiverse 下载 | [thing:7354352](https://www.thingiverse.com/thing:7354352) |
@@ -18,6 +20,8 @@ Full Blender project with editable mesh. Modify the face shape, tweak the struct
 STL 文件，可直接切片打印。适合涂装练习、结构研究和快速上手。
 
 STL file, ready to slice and print. Great for painting practice, structure study, and quick start.
+
+![TYPE-M 06-2](./assets/open-source/TYPE-M-06-2-FrontFace.png)
 
 | 资源 | 链接 |
 |------|------|
