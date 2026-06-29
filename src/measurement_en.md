@@ -21,7 +21,7 @@ Before measuring, it is recommended that you prepare a soft ruler and have someo
 
 ### Measurement Items
 
-Please measure and record the following data, fill in the [Measurement Results Template](#measurement-result-template), and send it to KigLand customer service.
+Please measure and record the following data, fill in the [Measurement Results Template](#measurement-result-template), and send it to KIGLAND customer service.
 
 | No. | Measurement Item | Reference Image | Description |
 | --- | ---------------- | --------------- | ----------- |
@@ -36,7 +36,7 @@ Please measure and record the following data, fill in the [Measurement Results T
 
 ### Measurement Result Template
 
-You can fill in the measurement results in the following template and send it to KigLand customer service:
+You can fill in the measurement results in the following template and send it to KIGLAND customer service:
 
 ```markdown
 Head Height: cm

@@ -16,7 +16,7 @@
 
 ---
 
-知识库帮助您了解我们的 KigLand Kigurumi 产品系列和服务流程。
+知识库帮助您了解我们的 KIGLAND Kigurumi 产品系列和服务流程。
 
 您可以使用（上面的）搜索功能来寻找特定的主题或问题。
 
@@ -26,7 +26,7 @@
 
 ---
 
-This knowledge base will helps you understand our KigLand Kigurumi product series and service processes.
+This knowledge base will helps you understand our KIGLAND Kigurumi product series and service processes.
 
 You can use the (above) search function to find specific topics or questions.
 
@@ -34,10 +34,10 @@ You can use the (above) search function to find specific topics or questions.
 
 Have fun!
 
-<p style="text-align: right;">--KigLand Team</p>
+<p style="text-align: right;">--KIGLAND Team</p>
 <p style="text-align: right;">08/22/2023 Shanghai</p>
 
 ## 推荐阅读
 
-- [KigLand 官网](https://kig.land)
+- [KIGLAND 官网](https://kig.land)
 - [Kigurumi 不完全手册](https://how.kig.land)
