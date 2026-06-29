@@ -18,6 +18,7 @@
 
 # 产品系列
 
+- [🎭 产品系列介绍 / Product Lineup](./products.md)
 - [👕 MAICRA 打底衣 “皮”](./MAICRA.md)
 
 # 开源资源
