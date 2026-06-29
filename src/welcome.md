@@ -6,7 +6,19 @@ KIGLAND Kigurumi 产品和服务的知识中心。无论你是第一次接触 Ki
 
 A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to returning customer.
 
-> 🇨🇳 🇭🇰 🇬🇧 🇯🇵 🇰🇷 🇩🇪 🇫🇷
+> 🇨🇳 玩头壳、交朋友，感谢您选择我们！
+>
+> 🇭🇰 玩面具，交朋友，多謝你揀我哋！
+>
+> 🇬🇧 Play with masks, make friends, thank you for choosing us!
+>
+> 🇯🇵 マスクで遊び、友達を作り、私たちを選んでくれてありがとう！
+>
+> 🇰🇷 가면으로 놀고, 친구를 만들어, 우리를 선택해 주셔서 감사합니다!
+>
+> 🇩🇪 Masken spielen, Freunde finden, danke dass Sie uns gewählt haben!
+>
+> 🇫🇷 Jouer avec des masques, se faire des amis, merci de nous avoir choisis!
 
 ---
 
