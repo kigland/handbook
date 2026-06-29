@@ -1,6 +1,5 @@
 [book]
 authors = ["Remi IO"]
 language = "zh_CN"
-multilingual = false
 src = "src"
 title = "KigLand knowledge base"
