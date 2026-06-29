@@ -25,3 +25,8 @@
 # 开源资源
 
 - [📦 开源资源 / Open Source](./open-source.md)
+
+# 帮助
+
+- [📖 术语表 / Glossary](./glossary.md)
+- [❓ 常见问题 / FAQ](./faq.md)
