@@ -13,7 +13,7 @@
 # 下单前
 
 - [🛒 如何订购 / How to Order](./how-to-order.md)
-- [🔁 流程須知 (Process Instructions)](./flow.md)
+- [🔁 流程须知 / Process Instructions](./flow.md)
 - [📏 测量指南](./measurement.md)
 - [📏 Measurement Guide](./measurement_en.md)
 <!-- - [📏 MAICRA Measurement Guide](./measurement_maicra.md) -->

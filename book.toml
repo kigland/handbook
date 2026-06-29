@@ -2,7 +2,7 @@
 authors = ["Remi IO"]
 language = "zh_CN"
 src = "src"
-title = "KIGLAND 知识库 WIK"
+title = "KIGLAND 知识库 WIKI"
 description = "KIGLAND Kigurumi 知识库 — 涵盖下单流程须知、头壳与紧身衣测量指南、MAICRA 产品介绍。KIGLAND Kigurumi knowledge base: ordering process, measurement guides, and product info."
 
 [output.html]

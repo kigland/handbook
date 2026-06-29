@@ -84,28 +84,76 @@
 
 ---
 
-## FAQ (EN)
+## About Kigurumi (EN)
 
 **Q: What exactly is Kigurumi?**
 
 A full-body character performance style from Japan. Put on a character headshell, zentai bodysuit, and outfit — and you become the character from head to toe. Unlike cosplay, you don't "approximate" the face with makeup — the shell *is* the face.
 
+**Q: Is the headshell hard or soft?**
+
+The vast majority are hard shells, made from fiberglass, resin, or 3D-printed materials. The inside is lined with foam padding so it won't press uncomfortably on your head.
+
 **Q: How do you see through the headshell?**
 
-There's a visor mesh hidden in the eyebrow area. From outside it looks like anime eyes. From inside, it's semi-transparent — enough to walk carefully. Stairs usually require a handler.
+There's a visor mesh hidden in the eyebrow area. From outside it looks like anime eyes. From inside, it's semi-transparent — enough to walk carefully. Field of view is limited; stairs are best done with a handler.
 
 **Q: Is it hot inside?**
 
-Yes. Summer wear can be challenging. Some models support internal fans. Take breaks every 20-30 minutes.
+Yes. Ventilation is limited and summer wear can be challenging. Some models support a small internal fan. For long sessions, take a break to air out every 20–30 minutes.
 
 **Q: Can men do this?**
 
 Absolutely. Kigurumi isn't gender-specific, and a significant portion of the community is male.
 
-**Q: Can I return it?**
+## Wearing & Using (EN)
 
-Custom products generally can't be returned for non-quality reasons. Standard products depend on the situation. Check with customer service.
+**Q: How do you communicate while wearing the headshell?**
 
-**Q: How do I clean and maintain the headshell?**
+Several ways: speak directly (your voice will be muffled), type on a phone, use an LCD writing tablet, or have a handler relay for you. Many players also rely on gestures and body language.
 
-Wipe with a soft cloth. Avoid alcohol. Air out the foam padding regularly. Store in a dry, ventilated place. Don't stack heavy items on it.
+**Q: Is the bodysuit (zentai) required?**
+
+Yes. The zentai covers all skin below the headshell and is a core part of the kig look. It comes in full-coverage (for studio shoots) and open-eye / face-window styles (standard for going out).
+
+**Q: Anything to keep in mind for the first wear?**
+
+- Use a large mirror — a full-length one is best
+- Make sure the lighting is bright and soft
+- Don't rush to take photos; spend a few minutes just looking at yourself
+- If it doesn't click the first time, don't worry — it gets more natural with each wear
+
+**Q: Do I need someone with me when going out?**
+
+Strongly recommended. With limited vision and usually no speaking, having a handler to watch the path, carry things, and handle passersby is much safer.
+
+## Safety & Care (EN)
+
+**Q: Does the headshell contain formaldehyde?**
+
+Reputable manufacturers treat shells before shipping. If you're concerned, air it out in a ventilated space for about two weeks before wearing.
+
+**Q: How do I clean and maintain it?**
+
+- Wipe the shell surface gently with a soft cloth; avoid solvents like alcohol
+- Air out the inner foam padding regularly
+- Hand-wash the bodysuit and dry in shade — no direct sunlight
+- Store in a dry, ventilated place and avoid crushing it out of shape
+
+**Q: Can I sleep in it?**
+
+No. The headshell is a rigid structure and isn't suitable for lying down. Always take it off before sleeping.
+
+## After-sales (EN)
+
+**Q: What if there's a quality issue on arrival?**
+
+Contact customer service with photos and we'll handle it case by case.
+
+**Q: Can I return or exchange it?**
+
+Custom products generally can't be returned for non-quality reasons. Standard products depend on the situation — see the after-sales terms confirmed with customer service at order time.
+
+**Q: How long is the warranty?**
+
+There's a warranty period after delivery, and non-user-caused damage can be repaired. Exact scope and duration follow the after-sales terms.

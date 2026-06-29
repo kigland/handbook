@@ -30,9 +30,11 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 
 - **⭐ [为什么选择 KIGLAND](./why-kigland.md)** — 998 元起的价格怎么做到的、KIGLAND 的公司背景与服务承诺、我们的供应链和出货经验。
 
-- **🎭 [产品系列介绍](./products.md)** — M.A.G.I.C 命名体系下的 Type-A、Type-M、Type-C、Type-G、Type-I 分别是什么，适合什么样的玩家。
+- **🎭 [产品系列介绍](./products.md)** — M.A.G.I.C 命名体系下的 Type-M、Type-C、Type-G 等分别是什么，适合什么样的玩家。
 
-- **🛒 [流程须知](./flow.md)** — 下单前需要了解的流程、条款和注意事项。
+- **🛒 [如何订购](./how-to-order.md)** — 标准款和定制款怎么选、下单到交付的完整步骤。
+
+- **🔁 [流程须知](./flow.md)** — 下单前需要了解的条款和注意事项。
 
 - **📏 [测量指南](./measurement.md)** — 头壳和紧身衣的测量方法，提交尺寸前必读。
 
@@ -52,7 +54,9 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 
 - **🎭 [Product Lineup](./products.md)** — The M.A.G.I.C naming system: what each Type means and who it's for.
 
-- **🛒 [Process Instructions](./flow.md)** — What to know before ordering: process, terms, and important notes.
+- **🛒 [How to Order](./how-to-order.md)** — Standard vs. custom, and the full step-by-step from order to delivery.
+
+- **🔁 [Process Instructions](./flow.md)** — Terms and important notes to know before ordering.
 
 - **📏 [Measurement Guide](./measurement_en.md)** — How to measure for headshells and zentai. Required reading before submitting.
 
@@ -68,10 +72,11 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 
 下单流程：
 
-1. 阅读 [流程须知 / Process Instructions](./flow.md)
-2. 按 [测量指南 / Measurement Guide](./measurement.md) 提供尺寸
-3. 联系客服确认需求和报价
-4. 淘宝下单，进入排单
+1. 阅读 [如何订购 / How to Order](./how-to-order.md) 了解标准款与定制款
+2. 阅读 [流程须知 / Process Instructions](./flow.md) 确认条款
+3. 按 [测量指南 / Measurement Guide](./measurement.md) 提供尺寸
+4. 联系客服确认需求和报价
+5. 淘宝下单，进入排单
 
 ---
 
@@ -82,7 +87,7 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 | 🌍 官网 (海外) | [www.kig.land](https://www.kig.land) · [2026.kig.land](https://2026.kig.land) |
 | 🇨🇳 官网 (大陆) | [www.kigland.cn](https://www.kigland.cn) · [2026.kigland.cn](https://2026.kigland.cn) |
 | 🛒 淘宝店 / Taobao | [kigland偶域kigurumi](https://kigland.taobao.com/) |
-| 🅱️ Bilibili | [偶域KigLand](https://space.bilibili.com/17547203) |
+| 🅱️ Bilibili | [偶域KIGLAND](https://space.bilibili.com/17547203) |
 | 📕 小红书官方 / XHS | [@KIGLAND](https://xhslink.com/m/94U3hi8q4At) |
 | 📕 小红书 Remi | [@头壳同学Remi](https://xhslink.com/m/9m4X9Q7EK5P) |
 | 🐦 X (Twitter) | [@Remi_IO](https://x.com/Remi_IO) |
