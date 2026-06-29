@@ -37,7 +37,17 @@ Have fun!
 <p style="text-align: right;">--KIGLAND Team</p>
 <p style="text-align: right;">08/22/2023 Shanghai</p>
 
-## 推荐阅读
+## 找到我们 / Find Us
+
+| 渠道 | 地址 |
+|------|------|
+| 🛒 淘宝店 | [kigland偶域kigurumi](https://kigland.taobao.com/) |
+| 📧 邮箱 | [service@kig.land](mailto:service@kig.land) |
+| 💬 QQ 1群 | 903520753 — [加群链接](https://qm.qq.com/q/4OrPbjdkaI) |
+| 💬 QQ 3群 | 971256234 — [加群链接](https://qm.qq.com/q/BykwrYDQu4) |
+| 🎮 Discord | [discord.gg/pyGUaz7N](https://discord.gg/pyGUaz7N) |
+
+## 外部链接
 
 - [KIGLAND 官网](https://kig.land)
 - [Kigurumi 不完全手册](https://how.kig.land)
