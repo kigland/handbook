@@ -50,11 +50,19 @@ A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to 
 
 | 渠道 | 地址 |
 |------|------|
+| 🌍 官网 (海外) | [www.kig.land](https://www.kig.land) · [2026.kig.land](https://2026.kig.land) |
+| 🇨🇳 官网 (大陆) | [www.kigland.cn](https://www.kigland.cn) · [2026.kigland.cn](https://2026.kigland.cn) |
 | 🛒 淘宝店 / Taobao | [kigland偶域kigurumi](https://kigland.taobao.com/) |
+| 🅱️ Bilibili | [偶域KigLand](https://space.bilibili.com/17547203) |
+| 📕 小红书官方 / XHS | [@KIGLAND](https://xhslink.com/m/94U3hi8q4At) |
+| 📕 小红书 Remi | [@头壳同学Remi](https://xhslink.com/m/9m4X9Q7EK5P) |
+| 🐦 X (Twitter) | [@Remi_IO](https://x.com/Remi_IO) |
+| 💻 GitHub | [github.com/kigland](https://github.com/kigland) |
 | 📧 邮箱 / Email | [service@kig.land](mailto:service@kig.land) |
 | 💬 QQ 1群 | 903520753 — [加群链接](https://qm.qq.com/q/4OrPbjdkaI) |
 | 💬 QQ 3群 | 971256234 — [加群链接](https://qm.qq.com/q/BykwrYDQu4) |
 | 🎮 Discord | [discord.gg/pyGUaz7N](https://discord.gg/pyGUaz7N) |
+| 📨 Telegram | [t.me/moekig](https://t.me/moekig) |
 
 ---
 
