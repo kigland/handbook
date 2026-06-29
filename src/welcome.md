@@ -1,53 +1,54 @@
-# 欢迎（welcome）
+# 欢迎 / Welcome
 
-> 🇨🇳 玩头壳、交朋友，感谢您选择我们！
->
-> 🇭🇰 玩面具，交朋友，多謝你揀我哋！
->
-> 🇬🇧 Play with masks, make friends, thank you for choosing us!
->
-> 🇯🇵 マスクで遊び、友達を作り、私たちを選んでくれてありがとう！
->
-> 🇰🇷 가면으로 놀고, 친구를 만들어, 우리를 선택해 주셔서 감사합니다!
->
-> 🇩🇪 Masken spielen, Freunde finden, danke dass Sie uns gewählt haben!
->
-> 🇫🇷 Jouer avec des masques, se faire des amis, merci de nous avoir choisis!
+> 🎭 玩头壳、交朋友 · Play with masks, make friends
+
+KIGLAND Kigurumi 产品和服务的知识中心。无论你是第一次接触 Kigurumi，还是准备下单的老玩家，这里都有你需要的。
+
+A knowledge hub for KIGLAND Kigurumi products and services, from first-timer to returning customer.
+
+> 🇨🇳 🇭🇰 🇬🇧 🇯🇵 🇰🇷 🇩🇪 🇫🇷
 
 ---
 
-知识库帮助您了解我们的 KIGLAND Kigurumi 产品系列和服务流程。
+## 快速导航 / Quick Links
 
-您可以使用（上面的）搜索功能来寻找特定的主题或问题。
-
-> 如果您是 **第一次了解 Kigurumi** 可以阅读 👉[快速入门](https://how.kig.land/get-start)
-
-祝您玩的愉快！
+| 我想… | 看这里 |
+|-------|--------|
+| 🛒 了解下单流程和条款 | [→ 流程须知 / Process Instructions](./flow.md) |
+| 📏 自己测量尺寸 | [→ 测量指南 (中文) / Measurement (ZH)](./measurement.md) |
+| 📏 Take my measurements | [→ Measurement Guide (EN)](./measurement_en.md) |
+| 👕 了解 MAICRA 打底衣 | [→ MAICRA 产品 / Product Page](./MAICRA.md) |
 
 ---
 
-This knowledge base will helps you understand our KIGLAND Kigurumi product series and service processes.
+## 第一次？/ New Here?
 
-You can use the (above) search function to find specific topics or questions.
+> 👉 初次了解 Kigurumi 请阅读 [快速入门 / Quick Start Guide](https://how.kig.land/get-start)
 
-> Learning about Kigurumi for the 1st time, please read the 👉[Quick Start Guide (zh_CN)](https://how.kig.land/get-start)
+下单流程：
 
-Have fun!
+1. 阅读 [流程须知 / Process Instructions](./flow.md)
+2. 按 [测量指南 / Measurement Guide](./measurement.md) 提供尺寸
+3. 联系客服确认需求和报价
+4. 淘宝下单，进入排单
 
-<p style="text-align: right;">--KIGLAND Team</p>
-<p style="text-align: right;">08/22/2023 Shanghai</p>
+---
 
 ## 找到我们 / Find Us
 
 | 渠道 | 地址 |
 |------|------|
-| 🛒 淘宝店 | [kigland偶域kigurumi](https://kigland.taobao.com/) |
-| 📧 邮箱 | [service@kig.land](mailto:service@kig.land) |
+| 🛒 淘宝店 / Taobao | [kigland偶域kigurumi](https://kigland.taobao.com/) |
+| 📧 邮箱 / Email | [service@kig.land](mailto:service@kig.land) |
 | 💬 QQ 1群 | 903520753 — [加群链接](https://qm.qq.com/q/4OrPbjdkaI) |
 | 💬 QQ 3群 | 971256234 — [加群链接](https://qm.qq.com/q/BykwrYDQu4) |
 | 🎮 Discord | [discord.gg/pyGUaz7N](https://discord.gg/pyGUaz7N) |
 
-## 外部链接
+---
 
-- [KIGLAND 官网](https://kig.land)
+## 友链 / Links
+
+- [KIGLAND 官网 / Official Site](https://kig.land)
 - [Kigurumi 不完全手册](https://how.kig.land)
+
+<p style="text-align: right; color: #888;">— KIGLAND Team</p>
